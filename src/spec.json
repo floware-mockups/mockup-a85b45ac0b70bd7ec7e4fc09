@@ -1,0 +1,175 @@
+{
+  "title": "Registro attività del team",
+  "description": "Prototipo navigabile per consultare le attività della settimana, filtrare il registro per stato e responsabile e aggiungere nuove attività.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle attività della settimana con riepilogo dello stato e delle assegnazioni.",
+      "metrics": [
+        {
+          "label": "Attività della settimana",
+          "value": "12"
+        },
+        {
+          "label": "Da iniziare",
+          "value": "4"
+        },
+        {
+          "label": "In corso",
+          "value": "5"
+        },
+        {
+          "label": "Completate",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Responsabile",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "Preparare la mappa delle idee",
+          "Lumo",
+          "In corso",
+          "Lunedì"
+        ],
+        [
+          "Rivedere il piano settimanale",
+          "Vela",
+          "Da iniziare",
+          "Martedì"
+        ],
+        [
+          "Organizzare le note di progetto",
+          "Nubi",
+          "Completata",
+          "Mercoledì"
+        ],
+        [
+          "Verificare i passaggi operativi",
+          "Lumo",
+          "In corso",
+          "Giovedì"
+        ],
+        [
+          "Raccogliere le proposte del team",
+          "Vela",
+          "Da iniziare",
+          "Venerdì"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-attivita",
+      "title": "Registro attività",
+      "description": "Elenco filtrabile delle attività. Usa i controlli di ricerca e filtro della tabella per trovare gli elementi per stato o responsabile.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Responsabile",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "Preparare la mappa delle idee",
+          "Lumo",
+          "In corso",
+          "Lunedì"
+        ],
+        [
+          "Rivedere il piano settimanale",
+          "Vela",
+          "Da iniziare",
+          "Martedì"
+        ],
+        [
+          "Organizzare le note di progetto",
+          "Nubi",
+          "Completata",
+          "Mercoledì"
+        ],
+        [
+          "Verificare i passaggi operativi",
+          "Lumo",
+          "In corso",
+          "Giovedì"
+        ],
+        [
+          "Raccogliere le proposte del team",
+          "Vela",
+          "Da iniziare",
+          "Venerdì"
+        ],
+        [
+          "Definire i prossimi obiettivi",
+          "Nubi",
+          "In corso",
+          "Lunedì"
+        ],
+        [
+          "Riordinare il quadro delle priorità",
+          "Lumo",
+          "Da iniziare",
+          "Martedì"
+        ],
+        [
+          "Preparare la sintesi del lavoro",
+          "Vela",
+          "Completata",
+          "Mercoledì"
+        ],
+        [
+          "Confrontare le idee raccolte",
+          "Nubi",
+          "In corso",
+          "Giovedì"
+        ],
+        [
+          "Aggiornare il piano delle attività",
+          "Lumo",
+          "Completata",
+          "Venerdì"
+        ],
+        [
+          "Rivedere la lista dei passaggi",
+          "Vela",
+          "In corso",
+          "Lunedì"
+        ],
+        [
+          "Definire il riepilogo settimanale",
+          "Nubi",
+          "Da iniziare",
+          "Martedì"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-attivita",
+      "title": "Nuova attività",
+      "description": "Aggiungi un'attività al registro inserendo un titolo, un responsabile inventato, uno stato e una scadenza.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Responsabile",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Attività",
+        "Responsabile",
+        "Stato",
+        "Scadenza"
+      ]
+    }
+  ]
+}
